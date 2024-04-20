@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>RyeRelax</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body class="bgtq"> 
+          <header class="logo">
+            <h1>RyeRelax</h1>
+            <a href="index.html">
+                <img src="image/shop/OIG2.jpeg" width="100" height="70" alt="Logo">
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="product.html">Product</a></li>
+                    <li><a href="jobs.html">Join Us</a></li>        
+                    <li><a href="other.html">Other</a></li>           
+                </ul>
+            </nav>
+          </header>
+
+    <main class="app">
+        <div class="testbox">
+            <form action="thank.html">
+              <div class="banner">
+                <h1>Job Application Form</h1>
+              </div>
+              <p class="top-info">Thank you for your interest in working with us. Please check below for available job opportunities that meet your criteria and send your application by filling out the Job Application Form.</p>
+              <div class="item">
+                <p>Name<span class="required">*</span></p>
+                <div class="name-item">
+                  <input type="text" name="name" placeholder="First" required>
+                  <input type="text" name="name" placeholder="Last" required>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="item">
+                  <p>Email<span class="required">*</span></p>
+                  <input type="email" id="email" name="email">
+                </div>
+                <div class="item">
+                  <p>Phone<span class="required">*</span></p>
+                  <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                </div>
+              </div>
+              <div class="position-item">
+                <div class="item">
+                  <p>What position are you applying for?<span class="required">*</span></p>
+                  <select required>
+                    <option value="">Please select ......</option>
+                    <option value="1">Bakers</option>
+                    <option value="2">Cashier</option>
+                    <option value="3">Waiter</option>
+                    <option value="4">Delivery boy</option>
+                    <option value="5">Senior Baker (5+ years of experience) </option>
+                  </select>
+                </div>
+                <div class="item">
+                  <p>Available start date<span class="required">*</span></p>
+                  <input type="date" name="wdate" required>
+                  <i class="fas fa-calendar-alt"></i>
+                </div>
+              </div>
+              <div class="question">
+                <p>What is your current employment status?<span class="required">*</span></p>
+                <div class="question-answer">
+                  <div>
+                    <input type="radio" value="none" id="radio_1" name="status" required>
+                    <label for="radio_1" class="radio"><span>Employed</span></label>
+                  </div>
+                  <div>
+                    <input type="radio" value="none" id="radio_2" name="status" required>
+                    <label for="radio_2" class="radio"><span>Self-Employed</span></label>
+                  </div>
+                  <div>
+                    <input type="radio" value="none" id="radio_3" name="status" required>
+                    <label for="radio_3" class="radio"><span>Unemployed</span></label>
+                  </div>
+                  <div>
+                    <input type="radio" value="none" id="radio_4" name="status" required>
+                    <label for="radio_4" class="radio"><span>Student</span></label>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <p>Submit your resume by providing your resume URL or attach file:</p>
+                <input type="url" id="homepage" name="homepage">
+                <input type="file" name="file" accept="file/*">
+              </div>
+              <div class="question">
+                <p>Would you like to list references</p>
+                <div class="question-answer">
+                  <div>
+                    <input type="radio" value="none" id="radio_5" name="references">
+                    <label for="radio_5" class="radio"><span>Yes</span></label>
+                  </div>
+                  <div>
+                    <input type="radio" value="none" id="radio_6" name="references">
+                    <label for="radio_6" class="radio"><span>No</span></label>
+                  </div>
+                </div>
+              </div>
+              <div class="appbutton">
+                <a href="thank.html">Apply</a> <!--want to collect data, need to use button-->
+              </div>
+            </form>
+          </div>
+    </main>
+
+    <footer><p>Copyright © 2024 RyeRelax All Rights Reserved.<br>Contant us-
+        <a href=mailto:ryerelax@gmail.com class = email>ryerelax@gmail.com</a></p>
+        <div class="company-info">
+            <h2>Company Information</h2>
+            <br>
+            <p>Company Name：RyeRelax</p>
+            <p>Head Office Address：Jalan Genting Kelang,Setapak,53300 Kuala Lumpur</p>
+            <p>Ph.No. :(6)03-41450123</p>
+            <br><br>
+            <p>Company Name：RyeRelax JOHOR BRANCH</p>
+            <p>Branch Address：Jalan Segamat / Labis 85000 Segamat,Johor,Malaysia</p>
+            <p>Ph.No. :(6)07-9270801/3</p>
+            <br><br>
+            <p>Company Name：RyeRelax SABAH BRANCH</p>
+            <p>Branch Address：Lot 1,Ground Floor,Jalan Alamesra,88450 Kota Kinabalu,Sabah,Malaysia</p>
+            <p>Ph.No. :(6)011-10825619</p>
+        </div>
+
+        <div class="subscribe-form">
+            <h2>Subscribe to our newsletter</h2>
+            <!--<form action=”thank.html“ method="POST">-->
+            <form>
+                <input type="email" name="email" placeholder="input your email" required>
+                <button type="submit">subscribe</button>
+            </form>
+        </div>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <div class="social-btns">
+            <a class="btn facebook" href="https://www.facebook.com/profile.php?id=61558152278919"><i class="fa fa-facebook"></i></a>
+            <a class="btn twitter" href="https://twitter.com/RelaxRye"><i class="fa fa-twitter"></i></a>
+            <a class="btn instagram" href="https://www.instagram.com/ryerelax/"><i class="fa fa-instagram"></i></a>
+        </div>
+        <div><audio controls autoplay loop>
+            <source src="audio/bgaudio.mp3" type="audio/ogg">
+            <source src="audio/bgaudio.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio></div>
+    </footer>
+
+    </body>
+
+</html>
